@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Mulish, sans-serif;
+}
+
+/* .slick-track {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 100%;
+} */
+
+.forSlickGoodsPhotos .slick-list .slick-track {
+    display: flex;
+    gap: 30px;
+    margin: 0 auto;
+    width: 100%;
+}   
+
+.forSlickServices .slick-list .slick-track {
+    gap: 20px;
+}   
+
+
