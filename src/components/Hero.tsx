@@ -6,8 +6,8 @@ import Header from './Header'
 import HeroDataSmall from '../data/HeroDataSmall'
 
 const Hero = () => {
-  const [info, setInfo] = useState(HeroData)
-  const [smallInfo, setSmallInfo] = useState(HeroDataSmall)
+  const [info] = useState(HeroData)
+  const [smallInfo] = useState(HeroDataSmall)
   const [currentIndex, setCurrentIndex] = useState<number>(0)
 
   const prevSlide = () => {

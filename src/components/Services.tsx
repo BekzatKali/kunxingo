@@ -16,7 +16,7 @@ import LeftArrow from '../images/icons/left-arrow.svg';
 import RightArrow from '../images/icons/right-arrow.svg';
 
 const Services = () => {
-  const [data, setData] = useState([
+  const [data] = useState([
     {
         title: 'Выкуп товара',
         img: FirstItem,

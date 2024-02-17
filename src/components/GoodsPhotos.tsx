@@ -7,7 +7,7 @@ import RightArrow from '../images/icons/right-arrow.svg';
 import Photos from '../data/GoodsPhotosData';
 
 const GoodsPhotos = () => {
-  const [data, setData] = useState(Photos)
+  const [data] = useState(Photos)
   const sliderRef = useRef(null);
 
   const settings = {
